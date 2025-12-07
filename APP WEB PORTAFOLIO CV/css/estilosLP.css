@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+    background-color: #f0f0f0;
+}
+
+h1,h2,h3,h4,p{
+    font-family: cursive;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.panel-doble, .panel-SobreMi p{
+    font-size: 30px;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.paneles-cv{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.btn-regresar {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: blue;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.Encabezado-cv{
+    background-color: blue;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.main-contenedor{
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+}
+
+.panel-foto{
+    flex: 1;
+    padding: 0;
+}
+
+.panel-foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.panel-SobreMi{
+    flex: 2;
+}
+
+.panel-SobreMi{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.panel-doble{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.panel-doble::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -16px;
+    border-width: 10px 20px 10px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    display: block;
+    width: 0;
+}
+
+.panel-SobreMi{
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.bottom-section{
+    gap: 30px;
+    margin-top: 40px;
+    background-color: #eff6ff;
+    padding: 40px 20px;
+}
+
+
+.bottom-section h3{
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.panel-ProyectosDestacados{
+    gap: 30px;
+    margin-top: 30px;
+}
+
+h2{
+    border-bottom: 3px solid #3b82f6;
+    margin-bottom: 20px;
+}
+
+.panel-proyecto h3{
+    color: blue;
+    margin-bottom: 8px;
+}
+
+.tecnologias {
+    overflow: hidden;
+}
+
+.slider-contenedor {
+    display: flex;
+    animation: mover 15s linear infinite;
+}
+
+.slide {
+    min-width: 150px;
+    padding: 10px;
+}
+
+.slide img {
+    width: 80px;
+    height: 80px;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-900px); /* 150px × 6 slides */
+    }
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

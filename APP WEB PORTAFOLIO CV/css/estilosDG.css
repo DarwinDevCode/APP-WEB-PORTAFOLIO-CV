@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* CONTENEDOR GENERAL */
+.cv-container{
+    width:1000px;
+    margin:30px auto;
+    display:flex;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    background:white;
+}
+
+/* PANEL IZQUIERDO */
+.left-panel{
+    width:35%;
+    background:#0f5a57;
+    color:white;
+    padding:30px;
+}
+
+.left-panel h2{margin-top:0;}
+
+.rol{font-size:14px;margin-bottom:20px;}
+
+.contacto p{
+    margin:4px 0;
+}
+
+.profile-photo img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    display:block;
+    margin:auto;
+    object-fit:cover;
+}
+
+.left-panel h3{
+    border-bottom:1px solid rgba(255,255,255,.4);
+    padding-bottom:5px;
+    margin-top:25px;
+}
+
+.left-panel ul{
+    padding-left:18px;
+}
+
+.left-panel section p,
+.left-panel section ul li{
+    font-size:14px;
+    line-height:1.4;
+}
+
+/* PANEL DERECHO */
+.right-panel{
+    width:65%;
+    padding:30px;
+}
+
+.right-panel h2{
+    color:#0f5a57;
+    margin-top:0;
+}
+
+.item{
+    margin-bottom:20px;
+}
+
+.item span{
+    font-size:13px;
+    color:#555;
+}
+
+.grid{
+    display:flex;
+    gap:15px;
+    margin:15px 0;
+}
+
+.box{
+    background:#e4f0ef;
+    padding:10px;
+    border-radius:5px;
+}
+
+.right-panel ul{
+    padding-left:20px;
+}
